@@ -1,0 +1,11 @@
+footer{
+    padding: 2rem;
+    background-color: var(--dark-bg-color);
+    display: flex;
+    justify-content: space-around;
+
+    small{
+        text-align: center;
+        color: var(--light-bg-color);
+    }
+}

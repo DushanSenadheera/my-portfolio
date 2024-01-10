@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+
+    .header-content {
+
+        span {
+            background: -webkit-linear-gradient(var(--primary-color), var(--secondary-color));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .contact-icons {
+            display: flex;
+            align-items: center;
+            width: 15rem;
+            margin-top: 1rem;
+
+            a {
+                color: var(--light-bg-color);
+                font-size: 1.5rem;
+                transition: all 0.3s ease-in-out;
+                margin-right: 1rem;
+
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .header-img {
+
+        img {
+            width: 28rem;
+            height: auto;
+        }
+    }
+}
