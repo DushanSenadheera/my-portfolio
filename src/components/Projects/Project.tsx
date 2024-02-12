@@ -6,11 +6,12 @@ import { Badge } from '@mantine/core';
 
 export default function Project() {
   return (
-   <div>
+   <div className="project-section">
     <h3 className="sub-heading">Projects</h3>
      <Carousel
-      withIndicators
-      height={200}
+      withControls = {true}
+      withIndicators = {true}
+      height= {400}
       slideSize={{ base: '100%', sm: '50%', md: '33.333333%' }}
       slideGap={{ base: 0, sm: 'md' }}
       loop
@@ -22,7 +23,7 @@ export default function Project() {
             <h3>{project.projectName}</h3>
             <ul>
               {project.projectSkills.map((tech, index) => (
-                <li key={index}><Badge component="li" color="red" size="sm">{tech}</Badge></li>
+                <li key={index}><Badge variant="light" component="li" color="blue" size="sm">{tech}</Badge></li>
               ))}
             </ul>
             <br />
