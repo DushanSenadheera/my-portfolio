@@ -8,15 +8,15 @@ export default function Tech() {
       <Marquee>
       <img
           src="https://img.icons8.com/color/48/000000/java.png"
-          alt="python"
+          alt="Java"
         />
         <img
           src="https://img.icons8.com/color/48/000000/my-sql.png"
-          alt="python"
+          alt="MySQL"
         />
         <img
-          src="https://img.icons8.com/color/48/000000/php.png"
-          alt="python"
+          src="https://img.icons8.com/color/48/000000/Php.png"
+          alt="PHP"
         />
         <img
           src="https://img.icons8.com/color/48/000000/python--v1.png"
@@ -48,31 +48,43 @@ export default function Tech() {
         />
         <img
           src="https://img.icons8.com/color/48/000000/express-js.png"
-          alt="postgresql"
+          alt="express"
         />
         <img
           src="https://img.icons8.com/color/48/000000/docker.png"
           alt="docker"
         />
         <img
-          src="https://img.icons8.com/color/48/000000/linux.png"
+          src="https://img.icons8.com/color/48/000000/kubernetes.png"
           alt="kubernetes"
+        />
+        <img
+          src="https://img.icons8.com/color/48/000000/terraform.png"
+          alt="kubernetes"
+        />
+        <img
+          src="https://img.icons8.com/color/48/000000/linux.png"
+          alt="linux"
         />
         <img
           src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
           alt="aws"
         />
         <img
+          src="https://img.icons8.com/color/48/000000/github.png"
+            alt="flutter"
+        />
+        <img
           src="https://img.icons8.com/color/48/000000/bash.png"
-          alt="aws"
+          alt="bash"
         />
         <img
           src="https://img.icons8.com/color/48/000000/c-programming.png"
-          alt="azure"
+          alt="c"
         />
         <img
           src="https://img.icons8.com/color/48/000000/c-sharp-logo.png"
-          alt="gcp"
+          alt="csharp"
         />
         <img
           src="https://img.icons8.com/color/48/000000/git.png"
@@ -80,19 +92,23 @@ export default function Tech() {
         />
         <img
           src="https://img.icons8.com/color/48/000000/arduino.png"
-          alt="jenkins"
+          alt="arduino"
         />
         <img
           src="https://img.icons8.com/color/48/000000/firebase.png"
-          alt="jenkins"
+          alt="firebase"
         />
         <img
           src="https://img.icons8.com/color/48/000000/sass.png"
-            alt="vscode"
+            alt="sass"
         />
         <img
           src="https://img.icons8.com/color/48/000000/flutter.png"
-            alt="vscode"
+            alt="flutter"
+        />
+        <img
+          src="https://img.icons8.com/color/48/000000/figma.png"
+            alt="flutter"
         />
       </Marquee>
     </div>

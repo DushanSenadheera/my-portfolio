@@ -5,10 +5,12 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
+import { Fade } from "react-awesome-reveal";
 
 export default function Header() {
   return (
     <div className="header">
+      <Fade direction="up">
       <div className="header-content">
         <h1>
           <span>Hi</span>, Welcome!
@@ -19,7 +21,7 @@ export default function Header() {
         <p>
         <Typewriter
           options={{
-            strings: ["Software Engineer", "DevSecOps Enthusiast", "UI/UX Designer"],
+            strings: ["Software Engineer", "DevSecOps Enthusiast", "Full-Stack Developer"],
             autoStart: true,
             loop: true,
           }}
@@ -55,9 +57,13 @@ export default function Header() {
           </a>
         </div>
       </div>
+      </Fade>
+      <Fade direction="down">
       <div className="header-img">
         <img src={me} alt="Dushan Senadheera" />
       </div>
+      </Fade>
+      
     </div>
   );
 }
