@@ -1,10 +1,12 @@
 import { Paper, Text, TextInput, Textarea, Button, Group, SimpleGrid } from '@mantine/core';
 import { ContactIconsList } from './ContactIcons';
 import classes from './GetInTouch.module.scss';
+import { Fade } from "react-awesome-reveal";
 
 export function GetInTouch() {
   return (
-    <Paper shadow="md" radius="lg">
+    <Fade direction='up'>
+      <Paper shadow="md" radius="lg">
       <div className={classes.wrapper}>
         <div className={classes.contacts} style={{ backgroundColor: `var(--dark-bg-color)`}}>
           <Text fz="lg" fw={700} className={classes.title} c="#fff">
@@ -22,7 +24,7 @@ export function GetInTouch() {
           <div className={classes.fields}>
             <SimpleGrid cols={{ base: 1, sm: 2 }}>
               <TextInput label="Your name" placeholder="Your name" />
-              <TextInput label="Your email" placeholder="hello@mantine.dev" required />
+              <TextInput label="Your email" placeholder="email@mail.com" required />
             </SimpleGrid>
 
             <TextInput mt="md" label="Subject" placeholder="Subject" required />
@@ -31,11 +33,11 @@ export function GetInTouch() {
               mt="md"
               label="Your message"
               placeholder="Please include all relevant information"
-              minRows={3}
+              minRows={5}
             />
 
             <Group justify="flex-end" mt="md">
-              <Button type="submit" className={classes.control}>
+              <Button type="submit" className='primary-btn'>
                 Send message
               </Button>
             </Group>
@@ -43,5 +45,6 @@ export function GetInTouch() {
         </form>
       </div>
     </Paper>
+    </Fade>
   );
 }

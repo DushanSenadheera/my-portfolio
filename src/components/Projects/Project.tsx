@@ -3,11 +3,13 @@ import "./Projects.scss";
 import { BsGithub } from "react-icons/bs";
 import projectDetails from "./Projects";
 import { Badge } from '@mantine/core';
+import { Fade } from "react-awesome-reveal";
 
 export default function Project() {
   return (
    <div className="project-section">
     <h3 className="sub-heading">Projects</h3>
+     <Fade direction="left">
      <Carousel
       withControls = {true}
       withIndicators = {true}
@@ -37,6 +39,7 @@ export default function Project() {
         </Carousel.Slide>
       ))}
     </Carousel>
+     </Fade>
    </div>
   );
 }

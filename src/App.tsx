@@ -7,6 +7,7 @@ import {GetInTouch} from './components/Contact/GetInTouch'
 import Footer from './components/Footer/Footer'
 import '@mantine/carousel/styles.css';
 import './App.scss'
+import About from './components/About/About'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Header />
       <Tech />
+      <About/>
       <Projects />
       <Blogs />
       <GetInTouch />

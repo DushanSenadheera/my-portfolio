@@ -8,6 +8,13 @@
         padding: 2rem;
         margin: 0 10%;
 
+        &:hover{
+            box-shadow: 0 10px 36px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+            transition: all 0.2s ease-in-out;
+        }
+
         h3 {
             color: #fff;
             font-size: 1.5rem;
