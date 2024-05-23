@@ -32,25 +32,13 @@ export default function Header() {
         </div>
         <div className="contact-icons">
           <a
-            href="https://www.linkedin.com/in/dushan-senadheera/"
+            href="https://www.linkedin.com/in/dushansenadheera/"
             target="_blank"
           >
             <FaLinkedin />
           </a>
           <a
-            href="https://www.linkedin.com/in/dushan-senadheera/"
-            target="_blank"
-          >
-            <FaFacebookSquare />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/dushan-senadheera/"
-            target="_blank"
-          >
-            <FaInstagramSquare />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/dushan-senadheera/"
+            href="https://github.com/DushanSenadheera"
             target="_blank"
           >
             <FaGithubSquare />

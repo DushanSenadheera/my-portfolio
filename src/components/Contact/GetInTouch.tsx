@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 export function GetInTouch() {
   return (
     <Fade direction='up'>
-      <Paper shadow="md" radius="lg">
+      <Paper id='contact' shadow="md" radius="lg">
       <div className={classes.wrapper}>
         <div className={classes.contacts} style={{ backgroundColor: `var(--dark-bg-color)`}}>
           <Text fz="lg" fw={700} className={classes.title} c="#fff">
@@ -17,7 +17,7 @@ export function GetInTouch() {
         </div>
 
         <form className={classes.form} onSubmit={(event) => event.preventDefault()}>
-          <Text fz="lg" fw={700} className={classes.title}>
+          <Text fz="lg" fw={700} className={classes.title} style={{color: '#fff'}}>
             Get in touch
           </Text>
 

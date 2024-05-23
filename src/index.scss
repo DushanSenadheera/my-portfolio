@@ -15,6 +15,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .primary-btn{
@@ -56,4 +57,23 @@
     padding: 0 10%;
     font-size: 1.8rem;
     color: #fff;
+}
+
+.follow{
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+
+    a{
+        color: var(--primary-color);
+        font-weight: 600;
+
+        &:hover{
+            text-decoration: underline;
+        }
+
+        &:visited{
+            color: #fff;
+        }
+    }
 }

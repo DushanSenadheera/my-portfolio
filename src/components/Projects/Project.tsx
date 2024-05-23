@@ -7,7 +7,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Project() {
   return (
-   <div className="project-section">
+   <div id="projects" className="project-section">
     <h3 className="sub-heading">Projects</h3>
      <Fade direction="left">
      <Carousel
