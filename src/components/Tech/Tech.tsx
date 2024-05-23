@@ -7,7 +7,7 @@ export default function Tech() {
         <h3 className="sub-heading">Tools & Technologies</h3>
       <Marquee>
       <img
-          src="https://img.icons8.com/color/48/000000/java.png"
+          src="https://img.icons8.com/?size=48&id=Pd2x9GWu9ovX&format=png&color=000000"
           alt="Java"
         />
         <img
@@ -15,7 +15,7 @@ export default function Tech() {
           alt="MySQL"
         />
         <img
-          src="https://img.icons8.com/color/48/000000/Php.png"
+          src="https://img.icons8.com/?size=48&id=fAMVO_fuoOuC&format=png&color=000000"
           alt="PHP"
         />
         <img
@@ -51,6 +51,10 @@ export default function Tech() {
           alt="express"
         />
         <img
+          src="https://img.icons8.com/?size=48&id=bp24DwGXJDyT&format=png&color=000000"
+          alt="jest"
+        />
+        <img
           src="https://img.icons8.com/color/48/000000/docker.png"
           alt="docker"
         />
@@ -60,7 +64,7 @@ export default function Tech() {
         />
         <img
           src="https://img.icons8.com/color/48/000000/terraform.png"
-          alt="kubernetes"
+          alt="terraform"
         />
         <img
           src="https://img.icons8.com/color/48/000000/linux.png"
@@ -69,10 +73,6 @@ export default function Tech() {
         <img
           src="https://img.icons8.com/color/48/000000/amazon-web-services.png"
           alt="aws"
-        />
-        <img
-          src="https://img.icons8.com/color/48/000000/github.png"
-            alt="flutter"
         />
         <img
           src="https://img.icons8.com/color/48/000000/bash.png"
@@ -108,7 +108,7 @@ export default function Tech() {
         />
         <img
           src="https://img.icons8.com/color/48/000000/figma.png"
-            alt="flutter"
+            alt="figma"
         />
       </Marquee>
     </div>

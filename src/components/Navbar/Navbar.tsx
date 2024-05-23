@@ -29,10 +29,10 @@ export default function Navbar() {
         <div className="navlinks">
           <ul>
             {Navlinks.map((item, index) => {
-              return <li key={index}>{item.name}</li>;
+              return <a href={item.path} key={index}>{item.name}</a>;
             })}
           </ul>
-          <button className="primary-btn">Download CV</button>
+          <a href="../../assets/Dushan Senadheera CV.pdf" download><button className="primary-btn">Download CV</button></a>
         </div>
       </nav>
     </div>

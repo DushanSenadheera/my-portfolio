@@ -65,10 +65,12 @@ export default function Blogs() {
   ));
 
   return (
-    <div className='blog-section'>
+    <div id='blogs' className='blog-section'>
       <h3 className='sub-heading'>Blogs</h3>
       <Fade direction='right'>
       <Carousel
+      withIndicators
+      withControls
       slideSize={{ base: '100%', sm: '50%' }}
       slideGap={{ base: 'xl', sm: 2 }}
       align="start"
@@ -76,6 +78,7 @@ export default function Blogs() {
     >
       {slides}
     </Carousel>
+    <p className='follow'>Do you want to read my future articles ?<br /> follow me on <a target='_blank' href='https://medium.com/@dcsenadheera777'>medium</a></p>
       </Fade>
     </div>
   );
