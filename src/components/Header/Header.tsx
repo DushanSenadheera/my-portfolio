@@ -1,9 +1,7 @@
 import "./Header.scss";
 import me from "../../assets/me.png";
 import { FaGithubSquare } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
 import Typewriter from "typewriter-effect";
 import { Fade } from "react-awesome-reveal";
 
