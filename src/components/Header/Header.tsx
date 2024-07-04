@@ -19,7 +19,7 @@ export default function Header() {
         <p>
         <Typewriter
           options={{
-            strings: ["Software Engineer", "DevSecOps Enthusiast", "Full-Stack Developer"],
+            strings: ["Software Engineer", "AI/ML Enthusiast", "Cloud-native Full-Stack Developer"],
             autoStart: true,
             loop: true,
           }}
@@ -30,7 +30,7 @@ export default function Header() {
         </div>
         <div className="contact-icons">
           <a
-            href="https://www.linkedin.com/in/dushansenadheera/"
+            href="https://www.linkedin.com/in/dushansenadheera"
             target="_blank"
           >
             <FaLinkedin />

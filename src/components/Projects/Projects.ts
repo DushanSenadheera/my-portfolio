@@ -1,8 +1,22 @@
 const projectDetails = [
     {
         projectID: 7,
+        projectName: "MASS Group Website",
+        projectSkills: ["NextJS", "TypeScript", "TailWind", "Aceternity UI", "i18next", "AWS"],
+        projectDescription: "Company portfolio to showcase their services and details",
+        projectURL: "https://via.placeholder.com/150",
+    },
+    {
+        projectID: 7,
+        projectName: "Aurora Grande Hotel Web Application",
+        projectSkills: ["React", "Node", "Express", "MongoDB", "SCSS", "Material UI", "Styled Components", "JWT", "PayPal API", "Nodemailer"],
+        projectDescription: "Hotel web application to showcase hotel information with admin dashboard to manage hotel reservations",
+        projectURL: "https://via.placeholder.com/150",
+    },
+    {
+        projectID: 7,
         projectName: "Context-aware Recommendation System",
-        projectSkills: ["React", "NodeJS", "ExpressJS", "AWS", "Python"],
+        projectSkills: ["React", "SCSS", "Mantine UI", "NodeJS", "ExpressJS","GitHub Actions", "AWS", "Python", "Scikit Learn"],
         projectDescription: "Travel recommendation system that can use as a SaaS API for other applications",
         projectURL: "https://via.placeholder.com/150",
     },
@@ -23,6 +37,13 @@ const projectDetails = [
     {
         projectID: 1,
         projectName: "Niwahana LK",
+        projectSkills: ["HTML", "CSS", "JavaScript", "PHP", "MySQL", "Google Maps API"],
+        projectDescription: "Web application for Green Task Force to locate and clear garbage collection around the city",
+        projectURL: "https://github.com/DushanSenadheera/NiwahanaLK",
+    },
+    {
+        projectID: 1,
+        projectName: "Green City",
         projectSkills: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
         projectDescription: "Niwahana LK is a web application for place house selling advertisements",
         projectURL: "https://github.com/DushanSenadheera/NiwahanaLK",
