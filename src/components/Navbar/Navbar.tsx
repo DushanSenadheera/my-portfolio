@@ -25,14 +25,14 @@ export default function Navbar() {
   return (
     <div>
       <nav className={`navbar ${scrolled ? 'dark' : ''}`}>
-        <h3 className="logo">Dushan Senadheera</h3>
+        <h3 className="logo">&lt;Dushan_S&#47;&gt;</h3>
         <div className="navlinks">
           <ul>
             {Navlinks.map((item, index) => {
               return <a href={item.path} key={index}>{item.name}</a>;
             })}
           </ul>
-          <a href="../../assets/Dushan Senadheera CV.pdf" download><button className="primary-btn">Download CV</button></a>
+          <a href="../../assets/DushanSenadheeraCV.pdf" download><button className="primary-btn">Download CV</button></a>
         </div>
       </nav>
     </div>

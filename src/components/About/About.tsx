@@ -10,9 +10,11 @@ export default function About() {
           Hello! I am Dushan Senadheera. I am a passionate and highly motivated
           undergraduate software engineer who loves to learn new things and
           improve my knowledge and skills. I am skilled in full-stack web
-          application development using the MERN stack and my further skills
-          include Cloud Computing, UI/UX Design, Mobile & Desktop Application
-          Development, DevOps and I am a cybersecurity enthusiast as well.
+          application development using the MERN stack with Test Driven
+          Development, Cloud Computing and DevSecOps exposure and my further
+          skills include Cloud Computing, UI/UX Design, Mobile & Desktop
+          Application Development, DevOps and I am a cybersecurity enthusiast as
+          well.
         </p>
       </Fade>
     </div>

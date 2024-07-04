@@ -75,6 +75,7 @@ export default function Blogs() {
       slideGap={{ base: 'xl', sm: 2 }}
       align="start"
       slidesToScroll={mobile ? 1 : 2}
+      loop
     >
       {slides}
     </Carousel>
