@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer'
 import '@mantine/carousel/styles.css';
 import './App.scss'
 import About from './components/About/About'
+import Services from './components/Services/Services'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Tech />
       <About/>
+      <Services />
       <Projects />
       <Blogs />
       <GetInTouch />

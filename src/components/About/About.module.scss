@@ -1,10 +1,31 @@
-.about-section{
+.aboutSection {
 
-    padding: 2rem;
+    padding: 1rem;
 
-    p{
+    .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+        .aboutImg, .aboutDescription {
+            width: 50%;
+
+            img{
+                width: 50%;
+                height: 50%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    p {
         padding: 1rem 5rem;
         color: #ffffff;
         text-align: justify;
     }
+
 }

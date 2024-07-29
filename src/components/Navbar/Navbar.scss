@@ -1,4 +1,4 @@
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -8,29 +8,57 @@ nav{
     transition: background-color 0.3s ease;
     z-index: 100;
 
-    .logo{
+    .mobileNav {
+        display: none;
+    }
+
+    .logo {
         font-size: 1.5rem;
         font-weight: 600;
         color: #fff;
     }
 
-    .navlinks{
+    .navlinks {
         display: flex;
         align-items: center;
     }
 
-    ul{
+    ul {
         display: flex;
         padding-right: 3rem;
 
-        a{
+        a {
             padding: 0 1rem;
             color: #fff;
-            font-weight: 500;
+            font-size: small;
         }
     }
 }
 
 .navbar.dark {
-    background-color: var(--dark-bg-color); 
+    background-color: var(--dark-bg-color);
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+
+        .mobileNavContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 0 2rem;
+        }
+
+        .mobileNav {
+            display: flex;
+        }
+
+        .navlinks,
+        ul {
+            flex-direction: column;
+            display: none;
+        }
+    }
 }

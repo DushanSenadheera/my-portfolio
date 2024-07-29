@@ -39,6 +39,10 @@ export default function Tech() {
           alt="redux"
         />
         <img
+          src="https://img.icons8.com/?size=48&id=yUdJlcKanVbh&format=png&color=000000"
+          alt="nextjs"
+        />
+        <img
           src="https://img.icons8.com/color/48/000000/nodejs.png"
           alt="nodejs"
         />
@@ -61,10 +65,6 @@ export default function Tech() {
         <img
           src="https://img.icons8.com/color/48/000000/kubernetes.png"
           alt="kubernetes"
-        />
-        <img
-          src="https://img.icons8.com/color/48/000000/terraform.png"
-          alt="terraform"
         />
         <img
           src="https://img.icons8.com/color/48/000000/linux.png"
@@ -101,6 +101,10 @@ export default function Tech() {
         <img
           src="https://img.icons8.com/color/48/000000/sass.png"
             alt="sass"
+        />
+        <img
+          src=" https://img.icons8.com/?size=48&id=4PiNHtUJVbLs&format=png&color=000000"
+            alt="tailwindcss"
         />
         <img
           src="https://img.icons8.com/color/48/000000/flutter.png"
