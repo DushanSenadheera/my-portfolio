@@ -6,7 +6,6 @@ import {
   Textarea,
   Button,
   Group,
-  SimpleGrid,
 } from "@mantine/core";
 import { ContactIconsList } from "./ContactIcons";
 import classes from "./GetInTouch.module.scss";
@@ -15,10 +14,12 @@ import { Fade } from "react-awesome-reveal";
 export function GetInTouch() {
   const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+
+    const form = event.target as HTMLFormElement;
     event.preventDefault();
     setResult("Sending....");
-    const formData = new FormData(event.target);
+    const formData = new FormData(form);
 
     formData.append("access_key", "9f725dc9-3c04-4fbf-a07a-4de2dfdaf6e0");
 
@@ -31,7 +32,7 @@ export function GetInTouch() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.target.reset();
+      form.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
