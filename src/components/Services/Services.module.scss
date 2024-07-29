@@ -1,0 +1,24 @@
+.title {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.description {
+  max-width: 10rem;
+  margin: auto;
+}
+
+.card {
+  background-color: var(--dark-bg-color) !important;
+
+  &:hover {
+    box-shadow: 0 10px 36px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.cardTitle {
+  color: #fff !important;
+}

@@ -8,6 +8,10 @@ export const Navlinks = [
         path: '/#about'
     },
     {
+        name: 'Services',
+        path: '/#services'
+    },
+    {
         name: 'Projects',
         path: '/#projects'
     },
