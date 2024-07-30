@@ -1,6 +1,6 @@
 import styles from "./About.module.scss";
 import { Fade } from "react-awesome-reveal";
-import bg from '../../assets/me.png'
+import bg from '../../assets/about.jpg';
 
 export default function About() {
   return (

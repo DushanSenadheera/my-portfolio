@@ -18,6 +18,7 @@
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
+                border-radius: 0.5rem;
             }
         }
     }
@@ -28,4 +29,18 @@
         text-align: justify;
     }
 
+}
+
+@media screen and (max-width: 768px) {
+    .aboutSection {
+        .aboutContainer {
+            flex-direction: column;
+            text-align: center;
+
+            .aboutImg, .aboutDescription {
+                width: 100%;
+            }
+        }
+    }
+    
 }
