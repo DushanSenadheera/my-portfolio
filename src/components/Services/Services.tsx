@@ -1,5 +1,7 @@
-import { Text, Card, SimpleGrid, Container, rem } from "@mantine/core";
-import { IconGauge, IconUser, IconCookie } from "@tabler/icons-react";
+import { Text, Card, SimpleGrid, Container } from "@mantine/core";
+import dev from "../../assets/dev.gif";
+import ui from "../../assets/ui.webp";
+import mobile from "../../assets/mobile.webp";
 import classes from "./Services.module.scss";
 
 const mockdata = [
@@ -7,19 +9,19 @@ const mockdata = [
     title: "Web Development",
     description:
       "Effiecient and scalable web application development with the latest technologies for your business needs",
-    icon: IconGauge,
+    icon: dev,
   },
   {
     title: "UI/UX Design",
     description:
       "Design user centric visually apealing interfaces for your software needs",
-    icon: IconUser,
+    icon: ui,
   },
   {
     title: "Mobile App Development",
     description:
       "Cross platform mobile application development for both Android and iOS platforms",
-    icon: IconCookie,
+    icon: mobile,
   },
 ];
 
@@ -32,11 +34,7 @@ export default function Services() {
       className={classes.card}
       padding="xl"
     >
-      <feature.icon
-        style={{ width: rem(50), height: rem(50) }}
-        stroke={2}
-        color={"white"}
-      />
+      <img src={feature.icon} width='50rem' height='50rem' alt="service icon" />
       <Text fz="lg" fw={500} className={classes.cardTitle} mt="md">
         {feature.title}
       </Text>
@@ -47,13 +45,11 @@ export default function Services() {
   ));
 
   return (
-    <div>
-      <h3 className="sub-heading">Services</h3>
       <Container size="lg" py="xl">
+      <h3 id="services" className="sub-heading">Services</h3>
         <SimpleGrid cols={{ base: 1, md: 3 }} spacing="xl" mt={50}>
           {features}
         </SimpleGrid>
       </Container>
-    </div>
   );
 }

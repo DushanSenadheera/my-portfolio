@@ -7,6 +7,7 @@ import "./Navbar.scss";
 export default function Navbar() {
 
   const [scrolled, setScrolled] = useState(false);
+  const [toggle, setToggle] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,17 +25,21 @@ export default function Navbar() {
     };
   }, []);
 
+  const toggleNavbar = () => {
+    setToggle(!toggle);
+  };
+
   return (
     <div>
       <nav className={`navbar ${scrolled ? 'dark' : ''}`}>
         <div className='mobileNavContainer'>
         <h3 className="logo">&lt;Dushan_S&#47;&gt;</h3>
-        <IconMenuDeep className='mobileNav' color='white'/>
+        <IconMenuDeep className='mobileNav' color='white' onClick={toggleNavbar} />
         </div>
-        <div className="navlinks">
+        <div className={`navlinks ${toggle ? 'toggleNav' : ''}`}>
           <ul>
             {Navlinks.map((item, index) => {
-              return <a href={item.path} key={index}>{item.name}</a>;
+              return <a onClick={toggleNavbar} href={item.path} key={index}>{item.name}</a>;
             })}
           </ul>
           <a href={cv} download><button className="primary-btn">Download CV</button></a>

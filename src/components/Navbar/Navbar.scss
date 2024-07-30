@@ -55,10 +55,19 @@ nav {
             display: flex;
         }
 
-        .navlinks,
-        ul {
-            flex-direction: column;
+        .navlinks {
+
             display: none;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        & .toggleNav {
+            display: flex;
+            flex-direction: column;
         }
     }
 }
