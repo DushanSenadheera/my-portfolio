@@ -19,7 +19,7 @@ export default function Header() {
         <p>
         <Typewriter
           options={{
-            strings: ["Software Engineer", "AI/ML Enthusiast", "Cloud-native Full-Stack Developer"],
+            strings: ["Software Engineer", "AI & Cloud Enthusiast"],
             autoStart: true,
             loop: true,
           }}
