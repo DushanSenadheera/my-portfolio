@@ -10,6 +10,7 @@ export default function Tech() {
           src="https://skillicons.dev/icons?i=react,nodejs,expressjs,angular,nestjs,graphql,kafka,redis,mongodb,mysql,postgres,next,redux,sass,tailwind,ts,aws,docker,kubernetes,githubactions,linux"
           alt="Java"
         />
+      </Marquee>
     </div>
   );
 }
