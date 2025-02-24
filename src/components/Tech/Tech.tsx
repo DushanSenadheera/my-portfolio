@@ -7,7 +7,7 @@ export default function Tech() {
         <h3 className="sub-heading">Tools & Technologies</h3>
       <Marquee>
       <img
-          src="https://img.icons8.com/?size=48&id=Pd2x9GWu9ovX&format=png&color=000000"
+          src="https://skillicons.dev/icons?i=react,nodejs,expressjs,angular,nestjs,graphql,kafka,redis,mongodb,mysql,postgres,next,redux,sass,tailwind,ts,aws,docker,kubernetes,githubactions,linux"
           alt="Java"
         />
         <img
